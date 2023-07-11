@@ -196,8 +196,10 @@ footer #images-footer{
       #images-footer .facebook-footer,
       #images-footer .instagram-footer,
       #images-footer .twitter-footer{
-        margin-right: 20px;
-        padding: 10%;
+        box-sizing: border-box;
+        margin: 2px;
+        outline: none;
+        padding: 2px;
         
 
       }
@@ -226,8 +228,8 @@ footer #contact {
         font-weight: bold;
         font-size: 20px;
         display: flex;
-        justify-content: right;
-        gap: 20px;
+        justify-content: center;
+        gap: 5px;
       }
       
 
